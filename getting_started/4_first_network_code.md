@@ -136,7 +136,7 @@ Finally, it’s a good idea to define **constants** for **tags** so that you can
 ```csharp        
 static class Tags
 {
-    public static readonly ushort SpawnPlayerTag = 0;
+    public const ushort SpawnPlayerTag = 0;
 }
 ```
 And change the tag parameter in both of the `Message.Create` calls to: `Tags.SpawnPlayerTag`.
